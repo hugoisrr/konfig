@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="984474a6-353e-41db-99d6-c3ef6bc39d27" name="THERAPY LARAVEL" url="https://iap2.therapy-app.com">
+        <fileTransfer rootFolder="/var/www/iap2" accessType="SFTP" host="therapy-app.com" port="22" sshConfigId="383fc3af-6906-419f-8ded-67005a6578ab" sshConfig="root@therapy-app.com:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
